@@ -1,17 +1,19 @@
 ## Workshop 
 
 ### Setup 
-  * Download and install Cloud Foundry CLI from [Github CLI repository](https://github.com/cloudfoundry/cli#downloads)
+  * Download and install Cloud Foundry CLI from [Cloud Foundry CLI repository](https://github.com/cloudfoundry/cli#downloads)
   * Verify CLI is running 
   ```bash
    $ cf --version 
   ```
+  * Ensure you have `git` installed and running on your laptop. You may use [instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) here.
   * Get your `API server URL`, `username` and `password` from the lab organizer 
+
+
+### Exercise 1 -- Deploy cf-spring app
 
 #### Goal  
 Deploy a sample spring app to Cloud Foundry running on Oracle Cloud Infrastucture using `cf` client.
-
-#### Exercise 1 -- Deploy cf-spring app
 
 #### Steps
 
@@ -95,5 +97,18 @@ $ cf app cf-spring
 ![cf app output](cf-app-scaled.png)
 
 
-##### Congratulations, you've successfully completed this workshop! 
+##### Congratulations, you've successfully completed this exercise!
+
+### Exercise-3 (Optional)
+
+#### Goal  
+
+Learn how to upgrade a running application without incurring  downtime.   
+
+#### Steps
+
+https://docs.cloudfoundry.org/devguide/deploy-apps/blue-green.html
+
+ 
+ 
 
